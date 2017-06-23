@@ -1,7 +1,6 @@
 function date(){
-  var date = new Date();
+  let date = new Date();
   document.write(date.toLocaleString());
 }
-
 
 date();
